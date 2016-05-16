@@ -18,9 +18,6 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-//var request = require('request');
-//app.use(request());
-
 pushLunch();
 pushSnack();
 
@@ -43,6 +40,7 @@ app.get('/', function (req, res) {
 });
 
 app.post('/register', function (req, res) {
+    console.log(req.toString());
     device_token = req.body.device_token;
     console.log(device_token);
     var promise = database.registerDeviceId(device_token);

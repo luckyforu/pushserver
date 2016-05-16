@@ -34,6 +34,7 @@
     <Compile Include="core\business\pushSnack.js" />
     <Compile Include="core\business\utils.js" />
     <Compile Include="core\database\database.js" />
+    <Compile Include="Procfile" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />

@@ -6,7 +6,7 @@ var gcmApiKey = 'AIzaSyCT8xVXRCziuZEkV-Pn8seTKu8nALjqH7Q';
 var database = require("../database/database");
 
 var job = new CronJob({
-    cronTime: '00 55 16 * * 1-5',
+    cronTime: '00 00 19 * * 1-5',
     onTick: function () {
         /*
      * Runs every weekday (Monday through Friday)

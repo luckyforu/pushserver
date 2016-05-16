@@ -2,8 +2,8 @@
 
     var q = require('q');
     var mongoose = require('mongoose'); 
-    //var dbConnectionString = 'mongodb://nishanth:nishanth@ds023078.mlab.com:23078/snacker';
-    var dbConnectionString = 'mongodb://localhost/snacker';
+    var dbConnectionString = 'mongodb://nishanth:nishanth@ds023078.mlab.com:23078/snacker';
+    //var dbConnectionString = 'mongodb://localhost/snacker';
     mongoose.connect(dbConnectionString);
     var db = mongoose.connection;
     db.on('error', function (error) { 
