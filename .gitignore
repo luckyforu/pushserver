@@ -306,3 +306,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+#node modules
+testvs/node_modules/
+testvs/obj/
