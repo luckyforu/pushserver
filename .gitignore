@@ -310,3 +310,4 @@ jspm_packages
 #node modules
 testvs/node_modules/
 testvs/obj/
+testvs/testvs.njsproj

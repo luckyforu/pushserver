@@ -3,11 +3,11 @@ var gcm = require('node-gcm');
 var app = express();
 var q = require('q');
 var CronJob = require('cron').CronJob;
-var pushSnack = require('./Business/pushSnack');
-var pushLunch = require('./Business/pushLunch');
+var pushSnack = require('./core/business/pushSnack');
+var pushLunch = require('./core/business/pushLunch');
 
 var gcmApiKey = 'AIzaSyCT8xVXRCziuZEkV-Pn8seTKu8nALjqH7Q';
-var database = require("./database");
+var database = require("./core/database/database");
 
 var bodyParser = require("body-parser");
 
