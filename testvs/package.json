@@ -1,10 +1,21 @@
 {
-  "name": "testvs",
-  "version": "0.0.0",
-  "description": "testvs",
+  "name": "pushserver",
+  "version": "0.0.1",
+  "description": "PushServer",
   "main": "server.js",
   "author": {
-    "name": "nishantk",
-    "email": ""
+    "name": "Nishanth Kabra",
+    "email": "nishantkabra14@gmail.com"
+  },
+  "engines": {
+    "node": "4.4.x",
+    "npm": "3.8.x"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "express": "4.13.4",
+    "mongoose": "^4.4.9",
+    "node-gcm": "0.14.0",
+    "q": "^1.4.1"
   }
 }
